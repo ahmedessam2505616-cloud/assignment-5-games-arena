@@ -1,0 +1,120 @@
+@media (min-width: 992px) {
+  #menu-toggle:checked ~ .site-header .mobile-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 767px) {
+  .hero-img {
+    height: 16rem;
+  }
+}
+@media (max-width: 767px) {
+  .section {
+    padding: 4rem 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .eyebrow::before,
+  .eyebrow::after {
+    width: 2rem;
+  }
+
+  .eyebrow::before {
+    left: -2.5rem;
+  }
+
+  .eyebrow::after {
+    right: -2.5rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .games-page {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+@media (max-width: 767px) {
+  .tile-icon {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.25rem;
+  }
+
+  .tile h3 {
+    font-size: 1rem;
+  }
+}
+
+/* ---------- Accessibility ---------- */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .scroll-left,
+  .scroll-right {
+    animation: none;
+  }
+}
+
+@media (min-width: 576px) {
+  .flex-sm-row {
+    flex-direction: row !important;
+  }
+
+  .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .flex-md-row {
+    flex-direction: row !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .d-lg-flex {
+    display: flex !important;
+  }
+
+  .d-lg-block {
+    display: block !important;
+  }
+
+  .d-lg-none {
+    display: none !important;
+  }
+
+  .text-lg-start {
+    text-align: left !important;
+  }
+
+  .mx-lg-0 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .col-lg-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .row-cols-lg-4 > * {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
